@@ -13,11 +13,9 @@
     "pack": "node build/pack.js"
   },
   "dependencies": {
-    "progressbar.js": "^1.0.1"
+    "progressbar.js": "git://github.com/mtorromeo/progressbar.js.git#0978bd7a45c1e1fcc8cf9b0890caddb5362941f6"
   },
   "devDependencies": {
-    "vue": "^2.2.2",
-    "vue-router": "^2.2.0",
     "autoprefixer": "^6.7.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
@@ -69,7 +67,9 @@
     "sinon": "^1.17.7",
     "sinon-chai": "^2.8.0",
     "url-loader": "^0.5.7",
+    "vue": "^2.2.2",
     "vue-loader": "^11.1.4",
+    "vue-router": "^2.2.0",
     "vue-style-loader": "^2.0.0",
     "vue-template-compiler": "^2.2.4",
     "webpack": "^2.2.1",
